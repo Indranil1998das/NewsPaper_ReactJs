@@ -1,0 +1,23 @@
+.notFound_main{
+   position: absolute;
+   top : 50%;
+   left:  10%;
+   right: 10%;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+
+.notFound_main>div{
+   display: flex;
+   flex-direction: column;
+      align-items: center;
+      justify-content: center;
+     
+}
+
+.notFound_main>div>p{
+    font-size: small;
+     font-weight: 300;
+      color: tomato;
+}
